@@ -1,6 +1,6 @@
 /* Buttons */
 .btn-home {
-    background-color: #8686f8;
+    background-color: #04AA6D;
     color: rgb(255, 255, 255);
     padding: 14px 25px;
     text-align: center;
@@ -14,8 +14,7 @@
 
 .btn-home:hover,
 .btn-home:active {
-    background-color: rgb(202, 183, 248);
+    background-color: #07dd8f;
     color: rgb(2, 2, 2);
     border-radius: 5px;
 }
-
