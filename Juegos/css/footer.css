@@ -1,0 +1,31 @@
+.sticky-footer {
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    bottom: 0;
+    color: #ffffff;
+    display: flex;
+    font-size: 18px;
+    height: 100px;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.sticky-footer a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.sticky-footer a:hover {
+    font-size: 18px;
+    text-decoration: none;
+    color: #04aa6d;
+}

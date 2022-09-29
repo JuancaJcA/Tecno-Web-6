@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    
+}
+.container .card1{
+    position: relative;
+    margin: 20px 40px;
+}
+.container .card2{
+    position: relative;
+    margin: 20px 40px;
+    height: 20%;
+}
+
+.container .card1 img{
+    width: 650px;
+    height: 100%;
+    color: #000;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+.container .c .hidden{
+    filter: blur(8px);
+}
+.container .card1 img:hover{
+    filter: brightness(100%);
+}
+.container .card1 p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4em;
+    word-spacing: 1px;
+    position: absolute;
+    width: 80%;
+    height: 15%;  
+    bottom: 15%;
+    padding: 0 10px;
+}
+.container .card2 img{
+    width: 450px;
+    height: 100%;
+    color: #000;
+    object-fit: cover;
+    filter: brightness(50%); 
+    transition: 0.5s;
+}
+.container .card2 img:hover{
+    filter: brightness(100%);
+}
+.container .card1 h2{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background: #fff;
+    padding-left: 20px;
+
+}
+.container .card2 p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4em;
+    word-spacing: 1px;
+    position: absolute;
+    width: 80%;
+    height: 15%;  
+    bottom: 25%;
+    padding: 0 10px;
+}
+.container .card2 h2{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background: #fff;
+    padding-left: 20px;
+}
+
